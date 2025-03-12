@@ -1,0 +1,292 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-text {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family:'Joystix Monospace', monospace;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button {
+    background: none;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family:'Joystix Monospace', monospace;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .marquee {
+    height: 35px;
+    width: 100%;
+  
+    overflow: hidden;
+    position: relative;
+    background-color: #e9e5fb;  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0 4px 0;
+  }
+  
+  .marquee div {
+    display: inline-block;
+    width: 300%;
+    height: 40px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 30s linear infinite;
+  }
+
+  .button:hover {
+    background: #fff;
+    color: black;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .social-links a {
+    margin-right: 2rem;
+    padding-right: 1rem;
+  }
+
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-info p {
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero-text h1 {
+    font-family:'Joystix Monospace', monospace;
+    font-size: 7rem;
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+
+  .hero-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    display: inline;
+    
+  }
+
+  .hero-text h3 {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    
+  }
+  
+  .hero-text h3::after {
+    content: url(pensive-face_1f614\ 1.png)
+
+  }
+  .hero-image img {
+   width: 150%;
+   height: auto;
+  padding-right: 170px;
+  
+  }
+  
+
+  .selected {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .selected-work-title {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .selected-work-title h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+  }
+  
+
+  .ux-work {
+    padding: 2rem;
+  }
+  
+  .ux-work h3 {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .project-card {
+    border: none;
+    background-color: #000000;
+    padding: 1rem;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+    padding-bottom: 5rem;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.02);
+    border: 5px color(srgb rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255))
+  }
+  
+  .project-card img {
+    border: none;
+    max-width: 110%;
+    margin-bottom: 1rem;
+    max-height: auto;
+  }
+
+  .project-card img:hover {
+    border: 5px white;
+  }
+  
+  .project-card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem ;
+    margin: 0.5rem 0;
+  }
+  
+  .project-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+
+  .project-card a:hover {
+    text-decoration-color: none;
+    border: white 5px;
+  }
+
+  .projects-container2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 16px;
+    row-gap: -10px;
+    padding-bottom: 5rem;
+  }
+  
+  .projects-container2 img {
+    width: 100%;
+  height: auto; 
+  }
+
+  .buttton {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 1px;
+}
+
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+  
+  .ux-work button {
+    align-items: center;
+  }
+
+  .game-design button {
+    align-items: center;
+  }
+
+  .Blender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .logo1 {
+    display: flex;
+    gap: 10px;
+
+  }
+
+
+  .logo1 img {
+    height: 48px;
+    width: auto;
+  }
+
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+  
+    .projects-container {
+      flex-direction: column;
+    }
+
+    .game-design {
+      flex-direction: column;
+    }
+  }
+  

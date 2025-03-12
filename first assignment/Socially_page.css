@@ -1,0 +1,23 @@
+.weird_text h2 {
+    font-family:'Joystix Monospace', monospace;
+    text-decoration: dotted;
+    color: white;
+
+}
+
+
+
+.table tr {
+    color: white;
+}
+
+.table th {
+    font-size: 15px;
+    font-family:'Joystix Monospace', monospace;
+}
+
+.table td {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
